@@ -36,7 +36,7 @@
       },
       {
         "name": "High Blood Pressure",
-        "imagesrc":"blood_pressure.jpg",
+        "imagesrc":"images\\High Blood Pressure.png",
         "symptoms": [
           "Headaches",
           "Shortness of breath",
