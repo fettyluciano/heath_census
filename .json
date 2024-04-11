@@ -2,7 +2,7 @@
     "conditions": [
       {
         "name": "Thyroid",
-        "imagesrc":"images\thyroid.jpg",
+        "imagesrc":"images\\thyroid.jpg",
         "symptoms": [
           "Fatigue",
           "Weight gain or loss",
@@ -19,7 +19,7 @@
       },
       {
         "name": "Diabetes",
-        "imagesrc":"diabeties.jpg",
+        "imagesrc":"images\\Diabetes.jpeg",
         "symptoms": [
           "Frequent urination",
           "Increased thirst",
