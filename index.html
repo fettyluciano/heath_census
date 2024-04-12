@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Health Analysis Data</title>
     <link rel="stylesheet" href="health_analysis.css" />
+    <script src="health_analysis.js"></script>
   </head>
 
   <body>
@@ -25,20 +26,36 @@
     </nav>
 
     <div class="container">
-        <div class="analysisForm">
-            <h1>Healthcare Data Analysis</h1>
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name">
-            </div>
-            <div>
-                <label>Gender</label>
-                <label for="male">Male</label>
-                <input type="radio" name="gender" id="male" value="Male">
-                <label for="female">Female</label>
-                <input type="radio" name="gender" id="female" value="female">
-            </div>
+      <div class="analysisForm">
+        <h1>Healthcare Data Analysis</h1>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" />
         </div>
+        <div>
+          <label>Gender</label>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="Male" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" />
+        </div>
+        <div>
+          <label for="age">Age:</label>
+          <input type="number" id="age" />
+        </div>
+        <div>
+          <label for="condition">Condition</label>
+          <select id="condition">
+            <option>Select condition</option>
+            <option value="Diabetes">Diabetes</option>
+            <option value="Thyroid">Thyroid</option>
+            <option value="High Blood Pressure">High Blood Pressure</option>
+          </select>
+        </div>
+        <button id="addPatient">Add Patient</button>
+        <h2>Analysis Report</h2>
+        <div id="report"></div>
+      </div>
     </div>
   </body>
 </html>
